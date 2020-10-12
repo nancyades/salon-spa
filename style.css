@@ -1,0 +1,237 @@
+.container .row{
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+
+#banner{
+  background: url(assets/backg.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  margin-left: -65px;
+  margin-right: -65px;
+}
+.text{
+ padding-top: 150px;
+  border: 5px solid  black;
+  margin-top: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 600px;
+}
+  .middle{
+    padding: 50px;
+  }
+  .middle h2{
+    color: brown;
+  }
+  .middle p{
+    font-size: x-large;
+  }
+  /*staff*/
+  #banner1{
+    background: url(assets/staff.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: -80px;
+    margin-right: -80px;
+}
+ .txt1{
+  
+  height: 200px;
+  border: 5px solid black;
+  padding: 60px;
+  color: black;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/*look*/
+#don{
+  background: url(assets/look.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  margin-left: -65px;
+}
+.ton{
+  padding-top: 80px;
+  border: 5px solid  black;
+  margin-top: 80px;
+  margin-left: 100px; 
+  margin-right: 50px;
+  height: 300px;
+}
+
+/*services*/
+#banner2{
+  background: url(assets/service.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: -80px;
+  margin-right: -80px;
+}
+.txt2{
+
+height: 200px;
+border: 5px solid black;
+padding: 60px;
+color: black;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+/*product*/
+#banner3{
+  background: url(assets/product.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: -80px;
+  margin-right: -80px;
+}
+.txt3{
+
+height: 200px;
+border: 5px solid black;
+padding: 60px;
+color: black;
+margin-left: 100px;
+margin-right: 100px;
+}
+/*contact*/
+#banner4{
+  background: url(assets/contact.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: -80px;
+  margin-right: -80px;
+}
+.txt4{
+
+height: 200px;
+border: 5px solid black;
+padding: 60px;
+color: black;
+margin-left: 100px;
+margin-right: 100px;
+}
+.form{
+   font-size: 20px;
+  
+}
+
+/*journal*/
+#banner5{
+  background: url(assets/journal.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: -80px;
+  margin-right: -80px;
+}
+.txt5{
+height: 200px;
+border: 5px solid black;
+padding: 60px;
+color: black;
+margin-left: 100px;
+margin-right: 100px;
+}
+#ban{
+  background: url(assets/b.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  margin-left: -65px;
+}
+.ten{
+  padding-top: 80px;
+  border: 5px solid  black;
+  margin-top: 80px;
+  margin-left: 100px; 
+  margin-right: 50px;
+  height: 300px;
+}
+/*cards*/
+.inner{
+  overflow: hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}       
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  #center{
+    margin-top: 20px;
+    padding-left: 30px;
+  }
+}
+
+/*end*/
+.end{
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-color: rgb(12, 12, 12);
+  display: flex;
+  justify-content: center;
+  color: azure;
+  font-size: 20px;
+  padding-top: 90px;
+ 
+}
+.end img{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  opacity: 0.45;
+}
+.end .content{ 
+  position: relative;
+  max-width: 1000px;
+  text-align: center;  
+}
+.end .remove a{
+  text-decoration: none;
+  color: azure;
+}
+.end .remove a:hover{
+  background-color: black;
+  color: red;
+}
+@media only screen and (max-width:620px) {
+  .end{
+    height: 1100px;
+  }
+  .end img{
+    height: 1100px;
+  }
+}
+
+.footer{
+  height: 10px;
+  padding-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
